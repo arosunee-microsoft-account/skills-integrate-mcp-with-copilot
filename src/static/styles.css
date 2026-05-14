@@ -57,6 +57,24 @@ section h3 {
   color: #1a237e;
 }
 
+.filter-controls {
+  margin-bottom: 20px;
+  display: grid;
+  gap: 16px;
+}
+
+.filter-row {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 640px) {
+  .filter-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
